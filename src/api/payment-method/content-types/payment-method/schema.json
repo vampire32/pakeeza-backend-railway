@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payment_methods",
+  "info": {
+    "singularName": "payment-method",
+    "pluralName": "payment-methods",
+    "displayName": "Payment Method"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CardNumber": {
+      "type": "text"
+    },
+    "CVV": {
+      "type": "string"
+    },
+    "ExpireDate": {
+      "type": "date"
+    },
+    "DeliveryMethod": {
+      "type": "enumeration",
+      "enum": [
+        "CashonDelivery",
+        "VisitShop"
+      ]
+    }
+  }
+}
