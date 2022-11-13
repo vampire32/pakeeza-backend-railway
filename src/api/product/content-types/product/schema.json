@@ -37,17 +37,16 @@
     "Review": {
       "type": "string"
     },
-    "img": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
+   "img": {
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
-    },
+      ],
+      "type": "media",
+      "multiple": false
+    }
     "Warranty": {
       "type": "string"
     },
