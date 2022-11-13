@@ -19,12 +19,6 @@
       "type": "string",
       "unique": true
     },
-    "Brand": {
-      "type": "string"
-    },
-    "Categories": {
-      "type": "string"
-    },
     "Price": {
       "type": "string"
     },
@@ -44,14 +38,62 @@
       "type": "string"
     },
     "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "Warranty": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "AC",
+        "Freezer",
+        "LED",
+        "Appliance",
+        "Kitchen",
+        "Washing"
+      ]
+    },
+    "SubCategories": {
+      "type": "enumeration",
+      "enum": [
+        "GREELINEUP",
+        "HAIERLINEUP",
+        "ORIENTLINEUP",
+        "KENWOODLINEUP",
+        "SIDEXSIDELINEUP",
+        "HAIERINVERTERLINEUP",
+        "BEDROOMSIZELINEUP",
+        "FREEZERLINEUP",
+        "ALLLOCALBRANDS",
+        "SONYLEDLINEUP",
+        "LGLEDTVLINEUP",
+        "TCLLEDLINEUP",
+        "ALLOTHERBRANDS",
+        "SOUNDSYSTEMTVSTANDS",
+        "WATERDISPENSER",
+        "VACUUMCLEANER",
+        "DOMESTICAPPLIANCES",
+        "COOKINGRANGE",
+        "GEYSER",
+        "HOOD",
+        "BAKINGOVEN",
+        "MICROWAVEOVEN",
+        "DRYER",
+        "FRONTLOADWASHER",
+        "TOPLOADWASHER",
+        "TWINSINGLETUBWASHER",
+        "DISHWASHER",
+        "HOTDEALS"
+      ]
     }
   }
 }
