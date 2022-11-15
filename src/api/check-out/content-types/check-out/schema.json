@@ -24,17 +24,6 @@
     "PhoneNumber": {
       "type": "biginteger"
     },
-    "img": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "ProductName": {
       "type": "text"
     },
@@ -44,16 +33,16 @@
     "Model": {
       "type": "string"
     },
-    "Brand": {
+    "COD": {
       "type": "string"
     },
     "SubTotal": {
       "type": "float"
     },
-    "COD": {
-      "type": "boolean"
-    },
     "City": {
+      "type": "string"
+    },
+    "VistStore": {
       "type": "string"
     }
   }
