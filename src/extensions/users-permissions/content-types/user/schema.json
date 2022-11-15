@@ -62,12 +62,6 @@
       "target": "plugin::users-permissions.role",
       "inversedBy": "users",
       "configurable": false
-    },
-    "order_deatails": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::order-deatail.order-deatail",
-      "mappedBy": "users_permissions_user"
     }
   }
 }

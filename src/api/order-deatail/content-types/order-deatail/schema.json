@@ -30,11 +30,8 @@
     "TotalPaid": {
       "type": "float"
     },
-    "users_permissions_user": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "plugin::users-permissions.user",
-      "inversedBy": "order_deatails"
+    "Email": {
+      "type": "email"
     }
   }
 }
