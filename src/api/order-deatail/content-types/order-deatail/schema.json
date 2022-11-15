@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_deatails",
+  "info": {
+    "singularName": "order-deatail",
+    "pluralName": "order-deatails",
+    "displayName": "OrderDeatail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "InvoiceNumber": {
+      "type": "float"
+    },
+    "InvoiceDate": {
+      "type": "date"
+    },
+    "Total": {
+      "type": "float"
+    },
+    "GST": {
+      "type": "float"
+    },
+    "Delivery": {
+      "type": "float"
+    },
+    "TotalPaid": {
+      "type": "float"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "order_deatails"
+    }
+  }
+}
