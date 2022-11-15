@@ -4,7 +4,8 @@
   "info": {
     "singularName": "check-out",
     "pluralName": "check-outs",
-    "displayName": "CheckOut"
+    "displayName": "CheckOut",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,34 @@
     },
     "PhoneNumber": {
       "type": "biginteger"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ProductName": {
+      "type": "text"
+    },
+    "ProductPrice": {
+      "type": "float"
+    },
+    "Model": {
+      "type": "string"
+    },
+    "Brand": {
+      "type": "string"
+    },
+    "SubTotal": {
+      "type": "float"
+    },
+    "COD": {
+      "type": "boolean"
     }
   }
 }

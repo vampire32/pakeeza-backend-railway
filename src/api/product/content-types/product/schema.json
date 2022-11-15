@@ -19,9 +19,6 @@
       "type": "string",
       "unique": true
     },
-    "Price": {
-      "type": "string"
-    },
     "Description": {
       "type": "richtext"
     },
@@ -46,7 +43,6 @@
         "files",
         "videos",
         "audios"
-        
       ]
     },
     "Warranty": {
@@ -95,6 +91,9 @@
         "DISHWASHER",
         "HOTDEALS"
       ]
+    },
+    "Price": {
+      "type": "float"
     }
   }
 }
