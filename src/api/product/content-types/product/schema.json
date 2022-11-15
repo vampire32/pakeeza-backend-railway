@@ -92,8 +92,11 @@
         "HOTDEALS"
       ]
     },
-    "Price": {
+    "price": {
       "type": "float"
+    },
+    "Price": {
+      "type": "string"
     }
   }
 }
