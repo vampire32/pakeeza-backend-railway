@@ -94,6 +94,9 @@
     },
     "Price": {
       "type": "string"
+    },
+    "Amount": {
+      "type": "float"
     }
   }
 }
