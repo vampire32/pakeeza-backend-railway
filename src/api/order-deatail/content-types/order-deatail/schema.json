@@ -35,9 +35,9 @@
     },
     "users_permissions_users": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "plugin::users-permissions.user",
-      "mappedBy": "order_deatail"
+      "mappedBy": "order_deatails"
     }
   }
 }
