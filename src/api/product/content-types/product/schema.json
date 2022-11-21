@@ -13,11 +13,13 @@
   "pluginOptions": {},
   "attributes": {
     "Name": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "Model": {
       "type": "string",
-      "unique": true
+      "unique": true,
+      "required": true
     },
     "Description": {
       "type": "richtext"
@@ -37,7 +39,7 @@
     "img": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -57,7 +59,8 @@
         "Appliance",
         "Kitchen",
         "Washing"
-      ]
+      ],
+      "required": true
     },
     "SubCategories": {
       "type": "enumeration",
@@ -89,14 +92,26 @@
         "TOPLOADWASHER",
         "TWINSINGLETUBWASHER",
         "DISHWASHER",
-        "HOTDEALS"
-      ]
+        "HOTDEALS",
+        "Dawalance",
+        "Haier",
+        "Panasonic",
+        "Geepas",
+        "Royal",
+        "TCl",
+        "Bruan",
+        "Samsung",
+        "moulinex"
+      ],
+      "required": true
     },
     "Price": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Amount": {
-      "type": "float"
+      "type": "float",
+      "required": true
     }
   }
 }
