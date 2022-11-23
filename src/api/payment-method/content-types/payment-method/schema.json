@@ -4,28 +4,25 @@
   "info": {
     "singularName": "payment-method",
     "pluralName": "payment-methods",
-    "displayName": "Payment Method"
+    "displayName": "Payment Method",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "CardNumber": {
-      "type": "text"
-    },
-    "CVV": {
+    "AccountTitle": {
       "type": "string"
     },
-    "ExpireDate": {
-      "type": "date"
+    "BankName": {
+      "type": "string"
     },
-    "DeliveryMethod": {
-      "type": "enumeration",
-      "enum": [
-        "CashonDelivery",
-        "VisitShop"
-      ]
+    "AccountNumber": {
+      "type": "biginteger"
+    },
+    "TID": {
+      "type": "string"
     }
   }
 }
