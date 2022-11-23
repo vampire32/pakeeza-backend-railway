@@ -68,6 +68,12 @@
       "relation": "manyToMany",
       "target": "api::order-deatail.order-deatail",
       "inversedBy": "users_permissions_users"
+    },
+    "check_outs": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::check-out.check-out",
+      "inversedBy": "users_permissions_users"
     }
   }
 }
